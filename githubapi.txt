@@ -1,0 +1,8 @@
+
+Client ID
+3e5ad00b5c052dd8bf7c
+
+Client secret: de42347e57f78fbe3217900751206abb06ef7f58
+
+Personal Access Token
+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
