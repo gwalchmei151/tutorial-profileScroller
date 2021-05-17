@@ -15,11 +15,28 @@
       a {
         text-decoration: none;
       }
+      .btn-block {
+        display: block;
+      }
     </style>
 
     <title>Profile Scroller</title>
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto text-center">
+          <h1 class="mb-3">Profile Scroller</h1>
+          <div id="imageDisplay"></div>
+          <br />
+          <div id="profileDisplay"></div>
+          <br />
+        </div>
+        <button id="next" class="btn btn-secondary btn-block" type="button">
+          Next
+        </button>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -31,5 +48,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="app.js"></script>
+    <!-- <script src="/resourcepack/app.js"></script> -->
   </body>
 </html>
